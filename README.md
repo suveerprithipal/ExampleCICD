@@ -1,6 +1,6 @@
 #  Project PineApple -  
 ###Sample Java Spring Application 
-We will use this for hosting our System Under Test
+We will use this for hosting our System Under Test.
 
 #####Included in this application:
 
