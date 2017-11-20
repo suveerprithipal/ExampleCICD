@@ -1,4 +1,4 @@
-#  Project PineApple -  
+#  Project PineApple --  
 ###Sample Java Spring Application 
 We will use this for hosting our System Under Test.
 
