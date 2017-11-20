@@ -9,7 +9,7 @@ a little 'business logic', the meat of the operation.
 
 We will use a few testing techniques to generate test coverage.
 
-##### Testing:
+##### Testing:-
 Using JUnit we will test: 
 * Unit Test -<b> Maven Surefire. </b>
 * Integration Test -<b> Maven Failsafe. </b>
