@@ -11,9 +11,10 @@ public class LockSmith_Test {
   @Test
   public void createNewLockSmith(){
 
-    //given
+    //given //when
     LockSmith lockSmith = new LockSmith("John Smith",0002,0010);
     //then
+    assertThat(lockSmith.getName(),isA(String.class));
     assertThat(lockSmith.getPin(), isA(Integer.class));
     assertThat(lockSmith.getLockNumber(), isA(Integer.class));
   }

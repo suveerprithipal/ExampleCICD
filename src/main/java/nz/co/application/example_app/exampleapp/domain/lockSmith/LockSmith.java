@@ -22,4 +22,8 @@ public class LockSmith {
   public int getLockNumber() {
     return lockNumber;
   }
+
+  public String getName() {
+    return name;
+  }
 }
