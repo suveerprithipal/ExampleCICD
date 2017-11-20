@@ -11,8 +11,8 @@ We will use a few testing techniques to generate test coverage.
 
 ##### Testing:
 Using JUnit we will test: 
-* Unit Test -<b> Maven Surefire </b>
-* Integration Test -<b> Maven Failsafe </b>
+* Unit Test -<b> Maven Surefire. </b>
+* Integration Test -<b> Maven Failsafe. </b>
 
 #####Maven
 This is a maven springboot application.
