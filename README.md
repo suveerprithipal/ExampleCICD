@@ -11,8 +11,8 @@ We will use a few testing techniques to generate test coverage.
 
 ##### Testing:
 Using JUnit we will test: 
-* Unit Test, 
-* Integration Test
+* Unit Test -<b> Maven Surefire </b>
+* Integration Test -<b> Maven Failsafe </b>
 
 #####Maven
 This is a maven springboot application.
@@ -26,6 +26,9 @@ run mvn verify -Dskip.surefire.tests
 
 #####TDD
 Using mockito, Junit and hamcrest.
+I built these simple methods using TDD.
+Mocking my wy through and building with quliaty in mind.
+Give it try.
 
 
 #####  The hit list. >>>

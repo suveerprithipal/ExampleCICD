@@ -1,4 +1,4 @@
-package nz.co.application.example_app.exampleapp.domain.lockSmith;
+package nz.co.application.example_app.pineapple.domain.lockSmith;
 
 public class LockSmith {
 
@@ -12,17 +12,14 @@ public class LockSmith {
     this.lockNumber = lockNumber;
   }
   public int getKey(int pin, int lockNumber){
-    return ((pin*lockNumber) + lockNumber)+pin;
+    return pin+lockNumber;
   }
-
   public int getPin() {
     return this.pin;
   }
-
   public int getLockNumber() {
     return lockNumber;
   }
-
   public String getName() {
     return name;
   }

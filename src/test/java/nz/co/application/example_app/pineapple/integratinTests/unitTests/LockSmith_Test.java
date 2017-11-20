@@ -1,6 +1,6 @@
-package nz.co.application.example_app.exampleapp.integratinTests.unitTests;
+package nz.co.application.example_app.pineapple.integratinTests.unitTests;
 
-import nz.co.application.example_app.exampleapp.domain.lockSmith.LockSmith;
+import nz.co.application.example_app.pineapple.domain.lockSmith.LockSmith;
 import org.junit.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
