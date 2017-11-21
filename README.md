@@ -1,5 +1,5 @@
 #  Project PineApple --  
-###Sample Java Spring Application 
+###Sample Java Spring Application
 We will use this for hosting our System Under Test.
 
 #####Included in this application:
@@ -40,3 +40,4 @@ Give it try.
 - postgres.
 - JPA + POJO
 - CI/CD on this project
+-
