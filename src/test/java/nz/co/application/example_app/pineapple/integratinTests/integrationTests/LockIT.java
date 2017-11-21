@@ -12,6 +12,12 @@ public class LockIT {
 
   @Test
   public void openLockIT(){
+    /*
+    An integration test is different from a unit test because there is a dependency on another class.
+    We will use the processing and output of function A to test the business logic of function B.
+
+    We will use JUnit to to this.
+     */
     // given
     LockInterface lockInterface = new Lock(5,10);
     //when

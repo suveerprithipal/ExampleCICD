@@ -1,5 +1,5 @@
 #  Project PineApple --  
-###Sample Java Spring Application
+###A narrative to a Java Spring Application
 We will use this for hosting our System Under Test.
 
 #####Included in this application:
@@ -28,18 +28,4 @@ run mvn verify -Dskip.surefire.tests
 Using mockito, Junit and hamcrest.
 I built these simple methods using TDD.
 Mocking my wy through and building with quliaty in mind.
-Give it try.
-
-
-#####  The hit list. >>>
-- rest endpoints for LockSmith data.
-- some logic or business logic.
-- tests. more tests. unit and integration tests.
-- step by step tdd:- im wondering how to best bring that across in code.
-- perhaps a bootstrap web frontend to trigger some event.
-- postgres.
-- JPA + POJO
-- CI/CD on this project
-
-####CI CD testing - pay no attention
-testing 5
+<b>Give it try.</b>

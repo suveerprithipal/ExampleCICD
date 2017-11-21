@@ -29,6 +29,9 @@ public class LockTest {
     assertThat(lock.isLocked(),is(equalTo(true)));
 
     // example of using hamcrest to mock the expected results
+    /*
+    In the case below, when is a mockito API, used to fudge the condition return.
+     */
     when(lock1.isLocked()).thenReturn(true);
     /*
     When mocking, for TDD, always replace your mocks with actual implementation.
@@ -42,6 +45,10 @@ public class LockTest {
     //given //when
     LockInterface lock = new Lock(10,10);
     //then
+    /*
+    assertThat is a JUnit API.
+    assertThat is a conditional matcher(expected vs actual)
+     */
     assertThat(lock.openLock(5,10),is(equalTo(true)));
   }
 
@@ -49,6 +56,7 @@ public class LockTest {
   public void keyMatches(){
     LockInterface lock = new Lock(10,5);
     lock.openLock(5, 5);
+
     assertThat(lock.isLocked(), is(equalTo(false)));
   }
 }
