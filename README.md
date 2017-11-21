@@ -40,4 +40,4 @@ Give it try.
 - postgres.
 - JPA + POJO
 - CI/CD on this project
--
+- testing
