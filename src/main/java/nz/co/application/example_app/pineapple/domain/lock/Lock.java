@@ -1,15 +1,15 @@
 package nz.co.application.example_app.pineapple.domain.lock;
 
-public class LockInterfaceImpl implements LockInterface {
+public class Lock implements LockInterface {
 
   private Boolean isLocked;
-  private int lockKey;
+  private int lockSecret;
   private int lockNumber;
 
 
-  public LockInterfaceImpl(int userPin, int lockNumber) {
+  public Lock(int userPin, int lockNumber) {
     this.isLocked = true;
-    this.lockKey = userPin;
+    this.lockSecret = userPin;
     this.lockNumber = lockNumber;
   }
 
@@ -19,13 +19,8 @@ public class LockInterfaceImpl implements LockInterface {
   }
 
   @Override
-  public void printState() {
-    System.out.print(this.isLocked());
-  }
-
-  @Override
   public Boolean openLock(int lockNumber, int lockKey) {
-    if (this.lockNumber == lockNumber && this.lockKey == (lockKey + lockNumber))
+    if (this.lockNumber == lockNumber && this.lockSecret == (lockKey + lockNumber))
     {
       isLocked = false;
       return isLocked();

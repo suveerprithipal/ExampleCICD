@@ -1,7 +1,7 @@
 package nz.co.application.example_app.pineapple.integratinTests.integrationTests;
 
 import nz.co.application.example_app.pineapple.domain.lock.LockInterface;
-import nz.co.application.example_app.pineapple.domain.lock.LockInterfaceImpl;
+import nz.co.application.example_app.pineapple.domain.lock.Lock;
 import nz.co.application.example_app.pineapple.domain.lockSmith.LockSmith;
 import org.junit.Test;
 
@@ -13,7 +13,7 @@ public class LockIT {
   @Test
   public void openLockIT(){
     // given
-    LockInterface lockInterface = new LockInterfaceImpl(5,10);
+    LockInterface lockInterface = new Lock(5,10);
     //when
     LockSmith lockSmith = new LockSmith("John",5, 10);
     //then
