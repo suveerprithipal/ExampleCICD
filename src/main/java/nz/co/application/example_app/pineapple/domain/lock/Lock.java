@@ -2,6 +2,11 @@ package nz.co.application.example_app.pineapple.domain.lock;
 
 public class Lock implements LockInterface {
 
+  /*
+  A simple Lock class that is set to locked on creation.
+  A Lock must also be created with a pin and lock number
+   */
+
   private Boolean isLocked;
   private int lockSecret;
   private int lockNumber;
@@ -17,6 +22,11 @@ public class Lock implements LockInterface {
   public Boolean isLocked() {
     return this.isLocked;
   }
+
+  /*
+  Below is the business logic of our class.
+  This is where the magic happens and will be the focus of our tests.
+   */
 
   @Override
   public Boolean openLock(int lockNumber, int lockKey) {

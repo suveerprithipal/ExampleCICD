@@ -11,9 +11,10 @@ public class LockSmithTest {
   @Test
   public void createNewLockSmith(){
 
-    //given //when
+    //given I have a new LockSmith
+    // when lockSmith is created with the following details,
     LockSmith lockSmith = new LockSmith("John Smith",0002,0010);
-    //then
+    //then I ensure thee details exist in context
     assertThat(lockSmith.getName(),isA(String.class));
     assertThat(lockSmith.getPin(), isA(Integer.class));
     assertThat(lockSmith.getLockNumber(), isA(Integer.class));

@@ -37,6 +37,7 @@ public class LockTest {
     When mocking, for TDD, always replace your mocks with actual implementation.
     This is critical to ensure you test the actual feature.
     Use interfaces to "implement" methods in classes that are required for your tdd.
+    Never leave your test in this manner, you would only be fooling yourself on test coverage.
      */
   }
 
