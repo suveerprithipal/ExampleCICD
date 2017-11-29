@@ -2,16 +2,12 @@ package nz.co.application.example_app.pineapple.domain.lock;
 
 public class Lock implements LockInterface {
 
-  /*
-  A simple Lock class that is set to locked on creation.
-  A Lock must also be created with a pin and lock number
-   */
-
+  // A simple Lock class that is set to locked on creation.
   private Boolean isLocked;
   private int lockSecret;
   private int lockNumber;
 
-
+  // A Lock must also be created with a pin and lock number
   public Lock(int userPin, int lockNumber) {
     this.isLocked = true;
     this.lockSecret = userPin;
