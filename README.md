@@ -34,5 +34,5 @@ run mvn verify -Dskip.surefire.tests
 #####TDD
 Using mockito, Junit and hamcrest.
 I built these simple methods using TDD.
-Mocking my wy through and building with quliaty in mind.
+Mocking my way through and building with quliaty in mind.
 <b>Give it try.</b>
